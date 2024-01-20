@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<ExecutionGuid>FCDA7B0D46669FC28F87BBA92BED9C68</ExecutionGuid>
+		<CrashGUID>UECC-WinGDK-14AF389040BD76CD64FF33AFCA5A56E1_0000</CrashGUID>
+		<IsEnsure>false</IsEnsure>
+		<IsStall>false</IsStall>
+		<IsAssert>false</IsAssert>
+		<CrashType>Crash</CrashType>
+		<ErrorMessage>Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0x0000000000000000</ErrorMessage>
+		<CrashReporterMessage />
+		<ProcessId>37748</ProcessId>
+		<SecondsSinceStart>8863</SecondsSinceStart>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<GameName>UE-Pal</GameName>
+		<ExecutableName>Palworld-WinGDK-Shipping</ExecutableName>
+		<BuildConfiguration>Shipping</BuildConfiguration>
+		<GameSessionID />
+		<PlatformName>WinGDK</PlatformName>
+		<PlatformNameIni>WinGDK</PlatformNameIni>
+		<EngineMode>Game</EngineMode>
+		<EngineModeEx>Unset</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>5.1.1-0+++UE5+Release-5.1</EngineVersion>
+		<CommandLine>CommandLineRemoved</CommandLine>
+		<LanguageLCID>0</LanguageLCID>
+		<AppDefaultLocale>en-US</AppDefaultLocale>
+		<BuildVersion>++UE5+Release-5.1-CL-0</BuildVersion>
+		<Symbols>**UE5*Release-5.1-CL-0-WinGDK-Shipping</Symbols>
+		<IsUERelease>true</IsUERelease>
+		<IsRequestingExit>false</IsRequestingExit>
+		<UserName />
+		<BaseDir>C:/Program Files/WindowsApps/PocketpairInc.Palworld_0.0.46598.0_x64__ad4psfrxyesvt/Pal/Binaries/WinGDK/</BaseDir>
+		<RootDir>C:/Program Files/WindowsApps/PocketpairInc.Palworld_0.0.46598.0_x64__ad4psfrxyesvt/</RootDir>
+		<MachineId>51C62FB84BD4A18A159AB2AE1AA6F18F</MachineId>
+		<LoginId>51c62fb84bd4a18a159ab2ae1aa6f18f</LoginId>
+		<HostName>DESKTOP-8GCSGEA</HostName>
+		<EpicAccountId>1cbb84fa219349a1b7b6df52cb631aa0</EpicAccountId>
+		<SourceContext />
+		<UserDescription>
+by bombadil</UserDescription>
+		<UserActivityHint />
+		<CrashDumpMode>0</CrashDumpMode>
+		<GameStateName />
+		<Misc.NumberOfCores>6</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>12</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>AuthenticAMD</Misc.CPUVendor>
+		<Misc.CPUBrand>AMD Ryzen 5 5600X 6-Core Processor</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>AMD Radeon RX 6750 XT</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>Windows 10 Home (Release 2009)</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor>Core</Misc.OSVersionMinor>
+		<MemoryStats.TotalPhysical>17101848576</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>35355459584</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>16</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>0</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>0</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>0</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>0</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>0</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>0</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<NumMinidumpFramesToIgnore>0</NumMinidumpFramesToIgnore>
+		<CallStack>Palworld_WinGDK_Shipping
+Palworld_WinGDK_Shipping
+Palworld_WinGDK_Shipping
+Palworld_WinGDK_Shipping
+Palworld_WinGDK_Shipping
+Palworld_WinGDK_Shipping
+Palworld_WinGDK_Shipping
+Palworld_WinGDK_Shipping
+Palworld_WinGDK_Shipping
+Palworld_WinGDK_Shipping
+Palworld_WinGDK_Shipping
+Palworld_WinGDK_Shipping
+Palworld_WinGDK_Shipping
+Palworld_WinGDK_Shipping
+kernel32
+ntdll</CallStack>
+		<PCallStack>Palworld-WinGDK-Shipping 0x00007ff663690000 + 1a500d8 Palworld-WinGDK-Shipping 0x00007ff663690000 + 1a5404c Palworld-WinGDK-Shipping 0x00007ff663690000 + 3c555f8 Palworld-WinGDK-Shipping 0x00007ff663690000 + 3c5bd9e Palworld-WinGDK-Shipping 0x00007ff663690000 + 3c65c92 Palworld-WinGDK-Shipping 0x00007ff663690000 + 1240065 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2aaa70c Palworld-WinGDK-Shipping 0x00007ff663690000 + 2a98757 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2a9a97f Palworld-WinGDK-Shipping 0x00007ff663690000 + 2aaa70c Palworld-WinGDK-Shipping 0x00007ff663690000 + b0d4d4 Palworld-WinGDK-Shipping 0x00007ff663690000 + b16f2c Palworld-WinGDK-Shipping 0x00007ff663690000 + b20bb6 Palworld-WinGDK-Shipping 0x00007ff663690000 + 59d1202 KERNEL32 0x00007ffc3e3a0000 + 1257d ntdll 0x00007ffc3ef10000 + 5aa58</PCallStack>
+		<PCallStackHash>39B17FFC49D787E4C0072DDE2949E885684C855C</PCallStackHash>
+		<Threads>
+			<Thread>
+				<CallStack>ntdll 0x00007ffc3ef10000 + 9f3f4 KERNELBASE 0x00007ffc3c640000 + 344ee Palworld-WinGDK-Shipping 0x00007ff663690000 + 2bcd54c Palworld-WinGDK-Shipping 0x00007ff663690000 + 2a8fa60 Palworld-WinGDK-Shipping 0x00007ff663690000 + 5a4842e VCRUNTIME140 0x00007ffc2d510000 + f0e0 ntdll 0x00007ffc3ef10000 + a441f ntdll 0x00007ffc3ef10000 + 1e466 ntdll 0x00007ffc3ef10000 + a340e Palworld-WinGDK-Shipping 0x00007ff663690000 + 1a500d8 Palworld-WinGDK-Shipping 0x00007ff663690000 + 1a5404c Palworld-WinGDK-Shipping 0x00007ff663690000 + 3c555f8 Palworld-WinGDK-Shipping 0x00007ff663690000 + 3c5bd9e Palworld-WinGDK-Shipping 0x00007ff663690000 + 3c65c92 Palworld-WinGDK-Shipping 0x00007ff663690000 + 1240065 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2aaa70c Palworld-WinGDK-Shipping 0x00007ff663690000 + 2a98757 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2a9a97f Palworld-WinGDK-Shipping 0x00007ff663690000 + 2aaa70c Palworld-WinGDK-Shipping 0x00007ff663690000 + b0d4d4 Palworld-WinGDK-Shipping 0x00007ff663690000 + b16f2c Palworld-WinGDK-Shipping 0x00007ff663690000 + b20bb6 Palworld-WinGDK-Shipping 0x00007ff663690000 + 59d1202 KERNEL32 0x00007ffc3e3a0000 + 1257d ntdll 0x00007ffc3ef10000 + 5aa58</CallStack>
+				<IsCrashed>true</IsCrashed>
+				<Registers />
+				<ThreadID>25012</ThreadID>
+				<ThreadName>GameThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffc3ef10000 + 9f3f4 KERNELBASE 0x00007ffc3c640000 + 344ee Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be4cfd Palworld-WinGDK-Shipping 0x00007ff663690000 + 2a9255d Palworld-WinGDK-Shipping 0x00007ff663690000 + 2a938e0 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2a86730 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2aeb904 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be3237 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2bde951 KERNEL32 0x00007ffc3e3a0000 + 1257d ntdll 0x00007ffc3ef10000 + 5aa58</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>2404</ThreadID>
+				<ThreadName>Foreground Worker #0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffc3ef10000 + 9f3f4 KERNELBASE 0x00007ffc3c640000 + 344ee Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be4cfd Palworld-WinGDK-Shipping 0x00007ff663690000 + 2a9255d Palworld-WinGDK-Shipping 0x00007ff663690000 + 2a938e0 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2a86730 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2aeb904 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be3237 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2bde951 KERNEL32 0x00007ffc3e3a0000 + 1257d ntdll 0x00007ffc3ef10000 + 5aa58</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>37648</ThreadID>
+				<ThreadName>Foreground Worker #1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffc3ef10000 + 9f3f4 KERNELBASE 0x00007ffc3c640000 + 344ee Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be4cfd Palworld-WinGDK-Shipping 0x00007ff663690000 + 2a9255d Palworld-WinGDK-Shipping 0x00007ff663690000 + 2a938e0 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2a86730 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2aeb904 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be3237 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2bde951 KERNEL32 0x00007ffc3e3a0000 + 1257d ntdll 0x00007ffc3ef10000 + 5aa58</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>29836</ThreadID>
+				<ThreadName>Background Worker #2</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffc3ef10000 + 9f3f4 KERNELBASE 0x00007ffc3c640000 + 344ee Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be4cfd Palworld-WinGDK-Shipping 0x00007ff663690000 + 2a9255d Palworld-WinGDK-Shipping 0x00007ff663690000 + 2a938e0 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2a86730 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2aeb904 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be3237 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2bde951 KERNEL32 0x00007ffc3e3a0000 + 1257d ntdll 0x00007ffc3ef10000 + 5aa58</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>22700</ThreadID>
+				<ThreadName>Background Worker #3</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffc3ef10000 + 9f3f4 KERNELBASE 0x00007ffc3c640000 + 344ee Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be4cfd Palworld-WinGDK-Shipping 0x00007ff663690000 + 2a9255d Palworld-WinGDK-Shipping 0x00007ff663690000 + 2a938e0 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2a86730 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2aeb904 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be3237 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2bde951 KERNEL32 0x00007ffc3e3a0000 + 1257d ntdll 0x00007ffc3ef10000 + 5aa58</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14172</ThreadID>
+				<ThreadName>Background Worker #4</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffc3ef10000 + 9f3f4 KERNELBASE 0x00007ffc3c640000 + 344ee Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be4cfd Palworld-WinGDK-Shipping 0x00007ff663690000 + 2a9255d Palworld-WinGDK-Shipping 0x00007ff663690000 + 2a938e0 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2a86730 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2aeb904 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be3237 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2bde951 KERNEL32 0x00007ffc3e3a0000 + 1257d ntdll 0x00007ffc3ef10000 + 5aa58</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>33736</ThreadID>
+				<ThreadName>Background Worker #5</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffc3ef10000 + 9f3f4 KERNELBASE 0x00007ffc3c640000 + 344ee Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be4cfd Palworld-WinGDK-Shipping 0x00007ff663690000 + 2a9255d Palworld-WinGDK-Shipping 0x00007ff663690000 + 2a938e0 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2a86730 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2aeb904 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be3237 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2bde951 KERNEL32 0x00007ffc3e3a0000 + 1257d ntdll 0x00007ffc3ef10000 + 5aa58</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>37436</ThreadID>
+				<ThreadName>Background Worker #6</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffc3ef10000 + 9f3f4 KERNELBASE 0x00007ffc3c640000 + 344ee Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be4cfd Palworld-WinGDK-Shipping 0x00007ff663690000 + 2a9255d Palworld-WinGDK-Shipping 0x00007ff663690000 + 2a938e0 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2a86730 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2aeb904 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be3237 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2bde951 KERNEL32 0x00007ffc3e3a0000 + 1257d ntdll 0x00007ffc3ef10000 + 5aa58</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>1132</ThreadID>
+				<ThreadName>Background Worker #7</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffc3ef10000 + 9f3f4 KERNELBASE 0x00007ffc3c640000 + 344ee Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be4cfd Palworld-WinGDK-Shipping 0x00007ff663690000 + 2a9255d Palworld-WinGDK-Shipping 0x00007ff663690000 + 2a938e0 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2a86730 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2aeb904 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be3237 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2bde951 KERNEL32 0x00007ffc3e3a0000 + 1257d ntdll 0x00007ffc3ef10000 + 5aa58</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>35440</ThreadID>
+				<ThreadName>Background Worker #8</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffc3ef10000 + 9f3f4 KERNELBASE 0x00007ffc3c640000 + 344ee Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be4cfd Palworld-WinGDK-Shipping 0x00007ff663690000 + 2a9255d Palworld-WinGDK-Shipping 0x00007ff663690000 + 2a938e0 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2a86730 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2aeb904 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be3237 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2bde951 KERNEL32 0x00007ffc3e3a0000 + 1257d ntdll 0x00007ffc3ef10000 + 5aa58</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>11704</ThreadID>
+				<ThreadName>Background Worker #9</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffc3ef10000 + 9f3f4 KERNELBASE 0x00007ffc3c640000 + 344ee Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be4cfd Palworld-WinGDK-Shipping 0x00007ff663690000 + 2aeb6fe Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be3237 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2bde951 KERNEL32 0x00007ffc3e3a0000 + 1257d ntdll 0x00007ffc3ef10000 + 5aa58</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>17480</ThreadID>
+				<ThreadName>BackgroundThreadPool #0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffc3ef10000 + 9f3f4 KERNELBASE 0x00007ffc3c640000 + 344ee Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be4cfd Palworld-WinGDK-Shipping 0x00007ff663690000 + 2aeb6fe Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be3237 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2bde951 KERNEL32 0x00007ffc3e3a0000 + 1257d ntdll 0x00007ffc3ef10000 + 5aa58</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>4688</ThreadID>
+				<ThreadName>BackgroundThreadPool #1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffc3ef10000 + 9f3f4 KERNELBASE 0x00007ffc3c640000 + 344ee Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be4cfd Palworld-WinGDK-Shipping 0x00007ff663690000 + 2a83e13 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2aeb904 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be3237 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2bde951 KERNEL32 0x00007ffc3e3a0000 + 1257d ntdll 0x00007ffc3ef10000 + 5aa58</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>8972</ThreadID>
+				<ThreadName>Reserve Worker #0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffc3ef10000 + 9f3f4 KERNELBASE 0x00007ffc3c640000 + 344ee Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be4cfd Palworld-WinGDK-Shipping 0x00007ff663690000 + 2a83e13 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2aeb904 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be3237 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2bde951 KERNEL32 0x00007ffc3e3a0000 + 1257d ntdll 0x00007ffc3ef10000 + 5aa58</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>35904</ThreadID>
+				<ThreadName>Reserve Worker #1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffc3ef10000 + 9f3f4 KERNELBASE 0x00007ffc3c640000 + 344ee Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be4cfd Palworld-WinGDK-Shipping 0x00007ff663690000 + 2a83e13 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2aeb904 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be3237 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2bde951 KERNEL32 0x00007ffc3e3a0000 + 1257d ntdll 0x00007ffc3ef10000 + 5aa58</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>6696</ThreadID>
+				<ThreadName>Reserve Worker #2</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffc3ef10000 + 9f3f4 KERNELBASE 0x00007ffc3c640000 + 344ee Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be4cfd Palworld-WinGDK-Shipping 0x00007ff663690000 + 2a83e13 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2aeb904 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be3237 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2bde951 KERNEL32 0x00007ffc3e3a0000 + 1257d ntdll 0x00007ffc3ef10000 + 5aa58</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>16660</ThreadID>
+				<ThreadName>Reserve Worker #3</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffc3ef10000 + 9f3f4 KERNELBASE 0x00007ffc3c640000 + 344ee Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be4cfd Palworld-WinGDK-Shipping 0x00007ff663690000 + 2a83e13 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2aeb904 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be3237 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2bde951 KERNEL32 0x00007ffc3e3a0000 + 1257d ntdll 0x00007ffc3ef10000 + 5aa58</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>22920</ThreadID>
+				<ThreadName>Reserve Worker #4</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffc3ef10000 + 9f3f4 KERNELBASE 0x00007ffc3c640000 + 344ee Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be4cfd Palworld-WinGDK-Shipping 0x00007ff663690000 + 2a83e13 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2aeb904 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be3237 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2bde951 KERNEL32 0x00007ffc3e3a0000 + 1257d ntdll 0x00007ffc3ef10000 + 5aa58</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>5780</ThreadID>
+				<ThreadName>Reserve Worker #5</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffc3ef10000 + 9f3f4 KERNELBASE 0x00007ffc3c640000 + 344ee Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be4cfd Palworld-WinGDK-Shipping 0x00007ff663690000 + 2a83e13 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2aeb904 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be3237 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2bde951 KERNEL32 0x00007ffc3e3a0000 + 1257d ntdll 0x00007ffc3ef10000 + 5aa58</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>10716</ThreadID>
+				<ThreadName>Reserve Worker #6</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffc3ef10000 + 9f3f4 KERNELBASE 0x00007ffc3c640000 + 344ee Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be4cfd Palworld-WinGDK-Shipping 0x00007ff663690000 + 2a83e13 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2aeb904 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be3237 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2bde951 KERNEL32 0x00007ffc3e3a0000 + 1257d ntdll 0x00007ffc3ef10000 + 5aa58</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>20856</ThreadID>
+				<ThreadName>Reserve Worker #7</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffc3ef10000 + 9f3f4 KERNELBASE 0x00007ffc3c640000 + 344ee Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be4cfd Palworld-WinGDK-Shipping 0x00007ff663690000 + 2a83e13 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2aeb904 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be3237 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2bde951 KERNEL32 0x00007ffc3e3a0000 + 1257d ntdll 0x00007ffc3ef10000 + 5aa58</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>37872</ThreadID>
+				<ThreadName>Reserve Worker #8</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffc3ef10000 + 9f3f4 KERNELBASE 0x00007ffc3c640000 + 344ee Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be4cfd Palworld-WinGDK-Shipping 0x00007ff663690000 + 2a83e13 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2aeb904 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be3237 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2bde951 KERNEL32 0x00007ffc3e3a0000 + 1257d ntdll 0x00007ffc3ef10000 + 5aa58</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>2344</ThreadID>
+				<ThreadName>Reserve Worker #9</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffc3ef10000 + 9f3f4 KERNELBASE 0x00007ffc3c640000 + 344ee Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be4cfd Palworld-WinGDK-Shipping 0x00007ff663690000 + 447120c Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be3237 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2bde951 KERNEL32 0x00007ffc3e3a0000 + 1257d ntdll 0x00007ffc3ef10000 + 5aa58</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>1368</ThreadID>
+				<ThreadName>FMediaTicker</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffc3ef10000 + 9f9f4 ntdll 0x00007ffc3ef10000 + 551b3 KERNELBASE 0x00007ffc3c640000 + 4506d Palworld-WinGDK-Shipping 0x00007ff663690000 + 3c636f1 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be3237 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2bde951 KERNEL32 0x00007ffc3e3a0000 + 1257d ntdll 0x00007ffc3ef10000 + 5aa58</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>37140</ThreadID>
+				<ThreadName>HttpManagerThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffc3ef10000 + 9f3f4 KERNELBASE 0x00007ffc3c640000 + 344ee Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be4cfd Palworld-WinGDK-Shipping 0x00007ff663690000 + 13231e6 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be3237 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2bde951 KERNEL32 0x00007ffc3e3a0000 + 1257d ntdll 0x00007ffc3ef10000 + 5aa58</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>38732</ThreadID>
+				<ThreadName>OnlineAsyncTaskThread DefaultInstance</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffc3ef10000 + 9f3f4 KERNELBASE 0x00007ffc3c640000 + 344ee Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be4cfd Palworld-WinGDK-Shipping 0x00007ff663690000 + 2baa2ee Palworld-WinGDK-Shipping 0x00007ff663690000 + 2aeb904 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be3237 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2bde951 KERNEL32 0x00007ffc3e3a0000 + 1257d ntdll 0x00007ffc3ef10000 + 5aa58</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>5392</ThreadID>
+				<ThreadName>OutputDeviceRedirector</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffc3ef10000 + 9f3f4 KERNELBASE 0x00007ffc3c640000 + 344ee Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be4cfd Palworld-WinGDK-Shipping 0x00007ff663690000 + 2aeb6fe Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be3237 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2bde951 KERNEL32 0x00007ffc3e3a0000 + 1257d ntdll 0x00007ffc3ef10000 + 5aa58</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>4276</ThreadID>
+				<ThreadName>IOThreadPool #0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffc3ef10000 + 9f3f4 KERNELBASE 0x00007ffc3c640000 + 344ee Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be4cfd Palworld-WinGDK-Shipping 0x00007ff663690000 + 2aeb6fe Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be3237 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2bde951 KERNEL32 0x00007ffc3e3a0000 + 1257d ntdll 0x00007ffc3ef10000 + 5aa58</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>35968</ThreadID>
+				<ThreadName>IOThreadPool #1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffc3ef10000 + 9f3f4 KERNELBASE 0x00007ffc3c640000 + 344ee Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be4cfd Palworld-WinGDK-Shipping 0x00007ff663690000 + 2aeb6fe Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be3237 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2bde951 KERNEL32 0x00007ffc3e3a0000 + 1257d ntdll 0x00007ffc3ef10000 + 5aa58</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>12084</ThreadID>
+				<ThreadName>IOThreadPool #2</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffc3ef10000 + 9f3f4 KERNELBASE 0x00007ffc3c640000 + 344ee Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be4cfd Palworld-WinGDK-Shipping 0x00007ff663690000 + 2aeb6fe Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be3237 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2bde951 KERNEL32 0x00007ffc3e3a0000 + 1257d ntdll 0x00007ffc3ef10000 + 5aa58</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>8140</ThreadID>
+				<ThreadName>IOThreadPool #3</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffc3ef10000 + 9f3f4 KERNELBASE 0x00007ffc3c640000 + 344ee Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be4cfd Palworld-WinGDK-Shipping 0x00007ff663690000 + 2a8ecdb Palworld-WinGDK-Shipping 0x00007ff663690000 + 3e66da0 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be3237 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2bde951 KERNEL32 0x00007ffc3e3a0000 + 1257d ntdll 0x00007ffc3ef10000 + 5aa58</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>1276</ThreadID>
+				<ThreadName>RHIThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffc3ef10000 + 9f3f4 KERNELBASE 0x00007ffc3c640000 + 344ee Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be4cfd Palworld-WinGDK-Shipping 0x00007ff663690000 + 2a8ecdb Palworld-WinGDK-Shipping 0x00007ff663690000 + 3e660b9 Palworld-WinGDK-Shipping 0x00007ff663690000 + 3e66df7 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be3237 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2bde951 KERNEL32 0x00007ffc3e3a0000 + 1257d ntdll 0x00007ffc3ef10000 + 5aa58</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>32680</ThreadID>
+				<ThreadName>RenderThread 0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffc3ef10000 + 9f9f4 ntdll 0x00007ffc3ef10000 + 551b3 KERNELBASE 0x00007ffc3c640000 + 4506d Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be3c5a Palworld-WinGDK-Shipping 0x00007ff663690000 + 3e66e97 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be3237 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2bde951 KERNEL32 0x00007ffc3e3a0000 + 1257d ntdll 0x00007ffc3ef10000 + 5aa58</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>6944</ThreadID>
+				<ThreadName>RTHeartBeat 0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffc3ef10000 + 9f3f4 KERNELBASE 0x00007ffc3c640000 + 344ee Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be4cfd Palworld-WinGDK-Shipping 0x00007ff663690000 + 1ac979a Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be3237 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2bde951 KERNEL32 0x00007ffc3e3a0000 + 1257d ntdll 0x00007ffc3ef10000 + 5aa58</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14948</ThreadID>
+				<ThreadName>AkMediaMemoryManager ticker</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffc3ef10000 + 9f3f4 KERNELBASE 0x00007ffc3c640000 + 344ee Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be4cfd Palworld-WinGDK-Shipping 0x00007ff663690000 + 2c56da9 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2c5373a Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be3237 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2bde951 KERNEL32 0x00007ffc3e3a0000 + 1257d ntdll 0x00007ffc3ef10000 + 5aa58</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>23804</ThreadID>
+				<ThreadName>FAsyncLoadingThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffc3ef10000 + 9f9f4 ntdll 0x00007ffc3ef10000 + 551b3 KERNELBASE 0x00007ffc3c640000 + 4506d Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be3c5a Palworld-WinGDK-Shipping 0x00007ff663690000 + 4eaa041 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be3237 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2bde951 KERNEL32 0x00007ffc3e3a0000 + 1257d ntdll 0x00007ffc3ef10000 + 5aa58</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>25468</ThreadID>
+				<ThreadName>ScreenSaverInhibitor</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffc3ef10000 + 9f3f4 KERNELBASE 0x00007ffc3c640000 + 344ee Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be4cfd Palworld-WinGDK-Shipping 0x00007ff663690000 + 40f0417 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be3237 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2bde951 KERNEL32 0x00007ffc3e3a0000 + 1257d ntdll 0x00007ffc3ef10000 + 5aa58</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>27708</ThreadID>
+				<ThreadName>AudioMixerNullCallbackThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffc3ef10000 + 9f3f4 KERNELBASE 0x00007ffc3c640000 + 344ee Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be4cfd Palworld-WinGDK-Shipping 0x00007ff663690000 + 40f064a Palworld-WinGDK-Shipping 0x00007ff663690000 + 40f057e Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be3237 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2bde951 KERNEL32 0x00007ffc3e3a0000 + 1257d ntdll 0x00007ffc3ef10000 + 5aa58</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>4888</ThreadID>
+				<ThreadName>AudioMixerRenderThread(1)</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffc3ef10000 + 9f3f4 KERNELBASE 0x00007ffc3c640000 + 344ee Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be4cfd Palworld-WinGDK-Shipping 0x00007ff663690000 + 2ce1bd2 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2be3237 Palworld-WinGDK-Shipping 0x00007ff663690000 + 2bde951 KERNEL32 0x00007ffc3e3a0000 + 1257d ntdll 0x00007ffc3ef10000 + 5aa58</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>21848</ThreadID>
+				<ThreadName>FAsyncPurge</ThreadName>
+			</Thread>
+		</Threads>
+		<TimeOfCrash>638412994874250000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<PlatformFullName>WinGDK [Windows 10 Home (Release 2009) Core 64b]</PlatformFullName>
+		<CPUBrand>AMD Ryzen 5 5600X 6-Core Processor</CPUBrand>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+		<Modules>C:\Program Files\WindowsApps\PocketpairInc.Palworld_0.0.46598.0_x64__ad4psfrxyesvt\Pal\Binaries\WinGDK\tbb.dll
+C:\Program Files\WindowsApps\PocketpairInc.Palworld_0.0.46598.0_x64__ad4psfrxyesvt\Pal\Binaries\WinGDK\Palworld-WinGDK-Shipping.exe
+C:\Program Files\WindowsApps\PocketpairInc.Palworld_0.0.46598.0_x64__ad4psfrxyesvt\Engine\Binaries\Win64\EOSSDK-Win64-Shipping.dll
+C:\Program Files\WindowsApps\PocketpairInc.Palworld_0.0.46598.0_x64__ad4psfrxyesvt\Engine\Binaries\ThirdParty\Windows\XAudio2_9\x64\xaudio2_9redist.dll
+C:\Program Files\WindowsApps\PocketpairInc.Palworld_0.0.46598.0_x64__ad4psfrxyesvt\Pal\Binaries\WinGDK\GameChat2.dll
+C:\Program Files\WindowsApps\PocketpairInc.Palworld_0.0.46598.0_x64__ad4psfrxyesvt\Pal\Binaries\WinGDK\XCurl.dll</Modules>
+	</RuntimeProperties>
+	<PlatformProperties>
+		<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+		<IsRunningOnBattery>false</IsRunningOnBattery>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+		<CrashTrigger>0</CrashTrigger>
+	</PlatformProperties>
+	<EngineData>
+		<MatchingDPStatus>WindowsNo errors</MatchingDPStatus>
+		<RHI.IntegratedGPU>false</RHI.IntegratedGPU>
+		<RHI.DriverDenylisted>false</RHI.DriverDenylisted>
+		<RHI.D3DDebug>false</RHI.D3DDebug>
+		<RHI.IsGPUOverclocked>false</RHI.IsGPUOverclocked>
+		<RHI.RHIName>D3D11</RHI.RHIName>
+		<RHI.AdapterName>AMD Radeon RX 6750 XT</RHI.AdapterName>
+		<RHI.UserDriverVersion>AMD Software: Adrenalin Edition 23.12.1</RHI.UserDriverVersion>
+		<RHI.InternalDriverVersion>31.0.23013.1023</RHI.InternalDriverVersion>
+		<RHI.DriverDate>11-28-2023</RHI.DriverDate>
+		<RHI.FeatureLevel>SM5</RHI.FeatureLevel>
+		<RHI.GPUVendor>AMD</RHI.GPUVendor>
+		<RHI.DeviceId>73DF</RHI.DeviceId>
+		<DeviceProfile.Name>Windows</DeviceProfile.Name>
+		<Platform.AppHasFocus>true</Platform.AppHasFocus>
+		<NumClients>2</NumClients>
+	</EngineData>
+	<GameData>
+		<__sentry>{ &quot;tags&quot;: { &quot;version&quot;: &quot;0.1.0.0&quot;, &quot;callstackhash&quot;: &quot;4F56175D8D7E3C4FFF1A95524EF0D6296496D0BB&quot;,&quot;revision&quot;: &quot;46598&quot;, &quot;platform&quot;: &quot;WinGDK&quot;, &quot;user_id&quot;: &quot;gdk_2535420755119859&quot;, &quot;session_id&quot;: &quot;1705693845_6452&quot;, &quot;players&quot;: &quot;3&quot; } }</__sentry>
+	</GameData>
+</FGenericCrashContext>
